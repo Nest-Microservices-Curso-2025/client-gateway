@@ -12,7 +12,7 @@ import {
 } from '@nestjs/common';
 import { ClientProxy, RpcException } from '@nestjs/microservices';
 import { catchError } from 'rxjs';
-import { PaginationDto } from 'src/common/dto/pagionation.dto';
+import { PaginationDto } from 'src/common/dto/pagination.dto';
 import { PRODUCT_SERVICES } from 'src/config/services';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
